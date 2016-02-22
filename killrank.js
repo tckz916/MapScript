@@ -1,3 +1,6 @@
+/**
+ * Created by tckz916 on 2016/02/23.
+ */
 var playerArray = new Array();
 match.on('end', function() {
   var players = match.getPlayers();
