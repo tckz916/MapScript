@@ -13,7 +13,7 @@ match.on('end', function() {
       name: player.getName(),
       kills: player.getKills()
     });
-    players[i].playSound("LEVEL_UP", 1, 1);
+    player.playSound("LEVEL_UP", 1, 1);
   }
 
   sort(playerArray, "kills", "DESC");
