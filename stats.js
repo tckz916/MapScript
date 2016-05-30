@@ -9,8 +9,8 @@ match.on('end', function() {
     var kill = player.getKills();
     var death = player.getDeaths();
 
-    var jp_message = '`a----- `6現在の試合統計 `a-----\n`aKills: `6' + kill + ' `aDeaths: `6' + death;
-    var message = '`a----- `6Current game stats `a-----\n`aKills: `6' + kill + ' `aDeaths: `6' + death;
+    var jp_message = '`a----- `6試合統計 `a-----\n`aKills: `6' + kill + ' `aDeaths: `6' + death;
+    var message = '`a----- `6This game stats `a-----\n`aKills: `6' + kill + ' `aDeaths: `6' + death;
     if (player.getLocale() == 'ja_JP') {
         player.sendMessage(jp_message);
     } else {
