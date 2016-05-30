@@ -1,6 +1,3 @@
-/**
- * Created by tckz916 on 2016/02/23.
- */
 match.on('end', function() {
   var players = match.getPlayers();
   for (var i = 0; i < players.length; i++) {
